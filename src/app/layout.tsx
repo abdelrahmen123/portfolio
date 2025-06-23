@@ -1,32 +1,50 @@
 import type { Metadata } from "next";
-import { El_Messiri, Changa } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { AOSInit } from "./aos-init";
-
-export const changa = Changa({
-  subsets: ["arabic"],
-  weight: ["600", "700"],
-  variable: "--font-changa",
-  display: "swap",
-});
-
-export const messiri = El_Messiri({
-  subsets: ["arabic"],
-  weight: ["500", "700"],
-  variable: "--font-messiri",
-  display: "swap",
-});
+import { messiri } from "@/lib/fonts";
 
 export const metadata: Metadata = {
-  title: "Abdelrahman Ahmad",
+  title: "عبد الرحمن أحمد | مطور ويب فول ستاك",
   description:
-    "Abdelrahman Ahmad is a full-stack web developer, i specialize in building user-friendly, performant, secure, and scalable web applications.",
-  icons: {
-    icon: "/logo.jpg",
+    "عبد الرحمن أحمد مطور ويب فول ستاك متخصص في JavaScript و TypeScript. أبني تطبيقات ويب عصرية باستخدام Next.js و NestJS مع التركيز على الأداء، الأمان، وقابلية التوسع.",
+  keywords: [
+    "عبد الرحمن أحمد",
+    "مطور ويب",
+    "فول ستاك",
+    "Next.js",
+    "NestJS",
+    "TypeScript",
+    "JavaScript",
+    "برمجة",
+    "مواقع",
+    "تطوير مواقع",
+  ],
+  authors: [{ name: "Abdelrahman Ahmad", url: "https://yourdomain.com" }],
+  creator: "Abdelrahman Ahmad",
+  metadataBase: new URL("https://yourdomain.com"),
+  openGraph: {
+    title: "عبد الرحمن أحمد | مطور ويب فول ستاك",
+    description:
+      "أبني تطبيقات ويب عالية الجودة باستخدام أحدث تقنيات JavaScript مثل Next.js و NestJS.",
+    url: "https://yourdomain.com",
+    siteName: "عبد الرحمن أحمد",
+    locale: "ar_EG",
+    type: "website",
+    images: [
+      {
+        url: "/logo.jpg", // تأكد أن الصورة موجودة في public
+        width: 1200,
+        height: 630,
+        alt: "Abdelrahman Ahmad Portfolio",
+      },
+    ],
   },
-  authors: [{ name: "Abdelrahman Ahmad" }],
+  icons: {
+    icon: "/logo.jpg", // favicon
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

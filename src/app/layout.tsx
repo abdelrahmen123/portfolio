@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { El_Messiri, Changa } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+import { AOSInit } from "./aos-init";
 
 export const changa = Changa({
   subsets: ["arabic"],
@@ -38,7 +40,9 @@ export default function RootLayout({
         className={`${messiri.variable} font-messiri bg-background text-foreground dark`}
       >
         <Navbar />
+        <AOSInit />
         {children}
+        <Footer />
       </body>
     </html>
   );

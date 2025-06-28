@@ -1,0 +1,312 @@
+import {
+  SiJavascript,
+  SiTypescript,
+  SiTypescriptHex,
+  SiHtml5,
+  SiHtml5Hex,
+  SiCss,
+  SiCssHex,
+  SiMysql,
+  SiMysqlHex,
+  SiReact,
+  SiReactHex,
+  SiSvelte,
+  SiSvelteHex,
+  SiNextdotjs,
+  SiNextdotjsHex,
+  SiRedux,
+  SiReduxHex,
+  SiTailwindcss,
+  SiTailwindcssHex,
+  SiMui,
+  SiMuiHex,
+  SiShadcnui,
+  SiPrisma,
+  SiPrismaHex,
+  SiTypeorm,
+  SiMongoose,
+  SiPostgresql,
+  SiPostgresqlHex,
+  SiMongodb,
+  SiMongodbHex,
+  SiJest,
+  SiJestHex,
+  SiVscodium,
+  SiVscodiumHex,
+  SiGit,
+  SiGitHex,
+  SiNestjs,
+  SiNestjsHex,
+  SiExpress,
+  SiNodedotjs,
+  SiNodedotjsHex,
+  SiNetlify,
+  SiNetlifyHex,
+  SiGithub,
+  SiGithubHex,
+  SiRailway,
+  SiRailwayHex,
+  SiVercel,
+  SiVercelHex,
+  SiTypeormHex,
+  SiMongooseHex,
+  SiShadcnuiHex,
+  SiJavascriptHex,
+  SiExpressHex,
+  SiNpm,
+  SiNpmHex,
+  SiPnpm,
+  SiPnpmHex,
+  SiVite,
+  SiViteHex,
+  SiZsh,
+  SiZshHex,
+} from "@icons-pack/react-simple-icons";
+
+import { TechnologyIconType } from "./types/iconsTypes";
+
+export const languages: TechnologyIconType[] = [
+  {
+    Icon: SiJavascript,
+    label: "JavaScript",
+    color: SiJavascriptHex,
+    href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    description: "اللغة الأساسية لبناء المواقع وتطبيقات الويب.",
+  },
+  {
+    Icon: SiTypescript,
+    label: "TypeScript",
+    color: SiTypescriptHex,
+    href: "https://www.typescriptlang.org/",
+    description: "نسخة محسّنة من JavaScript مع ميزات أمان أفضل.",
+  },
+  {
+    Icon: SiHtml5,
+    label: "HTML",
+    color: SiHtml5Hex,
+    href: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    description: "الأساس لبناء هيكل صفحات الويب.",
+  },
+  {
+    Icon: SiCss,
+    label: "CSS",
+    color: SiCssHex,
+    href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    description: "تُستخدم لتنسيق وتصميم شكل صفحات الويب.",
+  },
+  {
+    Icon: SiMysql,
+    label: "SQL",
+    color: SiMysqlHex,
+    href: "https://en.wikipedia.org/wiki/SQL",
+    description: "لغة لإدارة وتنظيم قواعد البيانات.",
+  },
+];
+
+export const frontendFrameworks: TechnologyIconType[] = [
+  {
+    Icon: SiReact,
+    label: "React",
+    color: SiReactHex,
+    href: "https://react.dev/",
+    description: "مكتبة لبناء واجهات مستخدم تفاعلية وسريعة.",
+  },
+  {
+    Icon: SiSvelte,
+    label: "Sveltekit",
+    color: SiSvelteHex,
+    href: "https://kit.svelte.dev/",
+    description: "أداة جديدة لبناء تطبيقات ويب عالية الأداء.",
+  },
+  {
+    Icon: SiNextdotjs,
+    label: "Next.js",
+    color: SiNextdotjsHex,
+    href: "https://nextjs.org/",
+    description: "إطار عمل يساعد في تطوير المواقع بسرعة مع دعم لمحركات البحث.",
+  },
+  {
+    Icon: SiRedux,
+    label: "Redux",
+    color: SiReduxHex,
+    href: "https://redux.js.org/",
+    description: "أداة لإدارة البيانات في تطبيقات React الكبيرة.",
+  },
+];
+
+export const uiLibraries: TechnologyIconType[] = [
+  {
+    Icon: SiTailwindcss,
+    label: "Tailwind CSS",
+    color: SiTailwindcssHex,
+    href: "https://tailwindcss.com/",
+    description: "نظام تصميم مرن يتيح لك تنسيق الصفحات بسرعة وبشكل مخصص.",
+  },
+  {
+    Icon: SiMui,
+    label: "Material UI",
+    color: SiMuiHex,
+    href: "https://mui.com/",
+    description: "مكتبة تصميم استنادًا إلى مبادئ Google Material.",
+  },
+  {
+    Icon: SiShadcnui,
+    label: "ShadCN UI",
+    color: SiShadcnuiHex,
+    href: "https://ui.shadcn.com/",
+    description:
+      "مكونات واجهة أنيقة وسهلة التخصيص باستخدام Radix UI وTailwind CSS.",
+  },
+];
+
+export const backendFrameworks: TechnologyIconType[] = [
+  {
+    Icon: SiNodedotjs,
+    label: "Node.js",
+    color: SiNodedotjsHex,
+    href: "https://nodejs.org/",
+    description: "بيئة تشغيل JavaScript على الخوادم لبناء تطبيقات ويب.",
+  },
+  {
+    Icon: SiNestjs,
+    label: "NestJS",
+    color: SiNestjsHex,
+    href: "https://nestjs.com/",
+    description: "إطار لتطوير تطبيقات الخوادم باستخدام TypeScript.",
+  },
+  {
+    Icon: SiExpress,
+    label: "Express.js",
+    color: SiExpressHex, // SiExpressHex غير متوفر
+    href: "https://expressjs.com/",
+    description: "إطار خفيف وسريع لبناء تطبيقات Node.js.",
+  },
+];
+
+export const databasesAndOrm: TechnologyIconType[] = [
+  {
+    Icon: SiPrisma,
+    label: "Prisma",
+    color: SiPrismaHex,
+    href: "https://www.prisma.io/",
+    description: "أداة حديثة لإدارة قواعد البيانات باستخدام TypeScript.",
+  },
+  {
+    Icon: SiTypeorm,
+    label: "TypeORM",
+    color: SiTypeormHex, // SiTypeormHex غير متوفر
+    href: "https://typeorm.io/",
+    description: "إطار قوي لإدارة قواعد البيانات باستخدام TypeScript.",
+  },
+  {
+    Icon: SiMongoose,
+    label: "Mongoose",
+    color: SiMongooseHex, // SiMongooseHex غير متوفر
+    href: "https://mongoosejs.com/",
+    description: "أداة للربط بين MongoDB وتطبيقات Node.js.",
+  },
+  {
+    Icon: SiPostgresql,
+    label: "PostgreSQL",
+    color: SiPostgresqlHex,
+    href: "https://www.postgresql.org/",
+    description: "قاعدة بيانات علائقية قوية ومفتوحة المصدر.",
+  },
+  {
+    Icon: SiMysql,
+    label: "MySQL",
+    color: SiMysqlHex,
+    href: "https://www.mysql.com/",
+    description: "قاعدة بيانات علائقية شهيرة وموثوقة.",
+  },
+  {
+    Icon: SiMongodb,
+    label: "MongoDB",
+    color: SiMongodbHex,
+    href: "https://www.mongodb.com/",
+    description: "قاعدة بيانات NoSQL مرنة لتخزين البيانات غير العلائقية.",
+  },
+];
+
+export const devTools: TechnologyIconType[] = [
+  {
+    Icon: SiJest,
+    label: "Jest",
+    color: SiJestHex,
+    href: "https://jestjs.io/",
+    description: "مكتبة لاختبار الكود بسرعة وكفاءة.",
+  },
+  {
+    Icon: SiVscodium,
+    label: "VSCodium",
+    color: SiVscodiumHex,
+    href: "https://vscodium.com/",
+    description: "نسخة مفتوحة المصدر من محرر الكود الشهير VS Code.",
+  },
+  {
+    Icon: SiGit,
+    label: "Git",
+    color: SiGitHex,
+    href: "https://git-scm.com/",
+    description: "أداة لإدارة الأكواد وتتبع التغييرات في المشاريع.",
+  },
+  {
+    Icon: SiNpm,
+    label: "npm",
+    color: SiNpmHex,
+    href: "https://www.npmjs.com/",
+    description: "مدير الحزم الخاص بـ Node.js لتثبيت الحزم وتشغيل السكريبتات.",
+  },
+  {
+    Icon: SiPnpm,
+    label: "pnpm",
+    color: SiPnpmHex,
+    href: "https://pnpm.io/",
+    description: "مدير حزم سريع وأكثر كفاءة في استهلاك المساحة.",
+  },
+  {
+    Icon: SiVite,
+    label: "Vite",
+    color: SiViteHex,
+    href: "https://vitejs.dev/",
+    description: "أداة تطوير سريعة لإنشاء التطبيقات الحديثة.",
+  },
+  {
+    Icon: SiZsh,
+    label: "Zsh",
+    color: SiZshHex,
+    href: "https://www.zsh.org/",
+    description: "شل طرفية متقدم لأداء قوي وسريع.",
+  },
+];
+
+export const deploymentPlatforms: TechnologyIconType[] = [
+  {
+    Icon: SiVercel,
+    label: "Vercel",
+    color: SiVercelHex,
+    href: "https://vercel.com/",
+    description: "منصة استضافة مثالية لمشاريع Next.js.",
+  },
+  {
+    Icon: SiNetlify,
+    label: "Netlify",
+    color: SiNetlifyHex,
+    href: "https://www.netlify.com/",
+    description: "منصة استضافة موجهة لـ JAMstack وتدعم CI/CD بسهولة.",
+  },
+  {
+    Icon: SiRailway,
+    label: "Railway",
+    color: SiRailwayHex,
+    href: "https://railway.app/",
+    description: "منصة لتسهيل نشر التطبيقات والخوادم.",
+  },
+  {
+    Icon: SiGithub,
+    label: "GitHub",
+    color: SiGithubHex,
+    href: "https://github.com/",
+    description: "أداة لإدارة المشاريع والأكواد ومشاركة الكود مع الآخرين.",
+  },
+];

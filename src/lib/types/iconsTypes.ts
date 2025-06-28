@@ -5,4 +5,5 @@ export type TechnologyIconType = {
   label: string;
   color: string;
   href: string;
+  description?: string;
 };

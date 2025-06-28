@@ -68,7 +68,9 @@ function BestSkills() {
             data-aos="zoom-in"
             data-aos-delay={index * 100}
           >
-            <div className="p-3 rounded-full bg-linear-to-br from-sky-500 to-cyan-100">
+            <div
+              className={`p-3 rounded-full transition-transform group-hover:scale-110 bg-linear-to-br shadow-xl shadow-sky-950 from-blue-500 to-sky-900`}
+            >
               <Icon
                 size={32}
                 title={label}

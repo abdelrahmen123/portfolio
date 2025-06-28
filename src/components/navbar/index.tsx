@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -16,15 +17,15 @@ function Navbar() {
           </div>
         </h1>
         <nav className="hidden md:flex gap-6 text-sm font-medium">
-          <a href="#home" className="hover:underline hover:text-secondary">
+          <Link href="/" className="hover:underline hover:text-secondary">
             الرئيسية
-          </a>
+          </Link>
           <a href="#projects" className="hover:underline hover:text-secondary">
             المشاريع
           </a>
-          <a href="#about" className="hover:underline hover:text-secondary ">
-            عني
-          </a>
+          <Link href="/about" className="hover:underline hover:text-secondary ">
+            من أنا
+          </Link>
 
           <a href="#contact" className="hover:underline hover:text-secondary">
             تواصل معي

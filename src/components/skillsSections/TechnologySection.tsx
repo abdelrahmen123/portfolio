@@ -17,7 +17,7 @@ function TechnologySection({
         {title}
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-18">
-        {skills.map(({ Icon, label, color, href, description }, index) => (
+        {skills.map(({ Icon, label, color, href, description }) => (
           <article
             key={label}
             className="relative flex justify-start flex-row-reverse items-center gap-5"
